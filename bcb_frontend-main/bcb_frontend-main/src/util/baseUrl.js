@@ -1,0 +1,1 @@
+export const baseUrl = "https://backend-bcb.herokuapp.com";

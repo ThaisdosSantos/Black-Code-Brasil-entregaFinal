@@ -1,0 +1,51 @@
+.background {
+    background-image:url('../../../../../public/img/cadastrar/fundo-cadastrar-novo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cor-titulo-cadastro {
+    color: #D9F8FF;
+}
+
+.decoracao-texto-form{
+    text-decoration: underline;
+}
+.decoracao-topico-termo {
+    color: inherit !important; 
+    text-decoration:none !important;
+}
+
+.texto-cadastrar {
+    font-size: max(15px, 1.5vw);
+    font-family: 'Source Code Pro', 'monospace';
+}
+
+.text-area-cadastro {
+    width: 100%;
+    height: 200px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    resize: none;
+
+    text-align: justify;
+}
+
+.borda-cadastro {
+    color: #ff149100;
+    border-bottom: 2px dashed #ffd79c81;
+}
+
+#botao-enviar {
+  padding: 10px 25px;
+}
+
+.texto-autorizo {
+  font-size: max(14px, 1.2vw);
+  font-family: 'Source Code Pro', 'monospace';
+  font-weight: 600;
+}

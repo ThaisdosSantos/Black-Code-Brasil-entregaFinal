@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Inicio da configuracao de toda cor da aplicacao*/
+:root{
+    --cor-principal: #292C36;
+    --cor-principal-mais-clara: #333333;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #FF1493;
+    --cor-terciaria-mais-clara: #E987EF;
+
+    --cor-principal-texto: #C4C4C4;
+    --cor-secundaria-texto: #AEF1FF;
+    --cor-terciaria-texto: #FFD79C;
+}
+/*Fim da configuracao de toda cor da aplicacao*/
+
+/*Inicio da criacao de classes reutilizaveis*/
+
+/*texto*/
+body {
+    background-color: var(--cor-principal);
+}
+.titulo-principal {
+    font-size: max(25px, 2.5vw);
+    font-family: 'Source Code Pro', 'monospace';
+    font-weight: 700;
+}
+
+.titulo-secundario {
+    font-size: max(15px, 2.5vw);
+    font-weight: 600;
+    font-family: 'Source Code Pro', 'monospace';
+}
+
+.titulo-terciario {
+    font-size: max(15px, 1.5vw);
+    font-weight: 700;
+    font-family: 'Source Code Pro', 'monospace';
+}
+
+.texto-principal {
+    font-size: max(15px, 2vw);
+    font-family: 'Source Code Pro', 'monospace';
+    font-weight: 400;
+}
+
+.texto-secundario {
+    font-size: max(11px, 1.5vw);
+    font-family: 'Source Code Pro', 'monospace';
+    font-weight: 700;
+}
+
+.texto-terciario {
+    font-size: max(11px, 1.2vw);
+    font-family: 'Source Code Pro', 'monospace';
+    font-weight: 600;
+}
+
+/*cor*/
+.cor-principal {
+    color: var(--cor-principal)
+}
+
+.cor-principal-mais-clara {
+    color: var(--cor-principal-mais-clara)
+}
+
+.cor-secundaria {
+    color: var(--cor-secundaria)
+}
+
+.cor-terciaria {
+    color: var(--cor-terciaria)
+}
+
+.cor-terciaria-mais-clara {
+    color: var(--cor-terciaria-mais-clara)
+}
+
+.cor-principal-texto {
+    color: var(--cor-principal-texto)
+}
+
+.cor-secundaria-texto {
+    color: var(--cor-secundaria-texto)
+}
+
+.cor-terciaria-texto {
+    color: var(--cor-terciaria-texto)
+}
+/*Fim da criacao de classes reutilizaveis*/
+
+/*Inicio de estilizacao da pagina 1*/
+
+.linha-1 {
+    height: 50px;
+    background-color: var(--cor-principal);
+}
+
+.linha-2 {
+    background-color: var(--cor-principal-mais-clara);
+    color: var(--cor-secundaria);
+    font-size: 36px;
+}
+
+.linha-3 {
+    color: var(--cor-secundaria);
+    font-size: 36px;
+    background-color: var(--cor-principal);
+}
+
+.linha-4 {
+    background-color: var(--cor-principal-mais-clara);
+    font-size: 36px;
+    color: var(--cor-secundaria);
+    line-height: 1.2em
+}
+
+.linha-5 {
+    font-size: 36px;
+    color: var(--cor-secundaria);
+    line-height: 1.2em;
+    background-color: var(--cor-principal);
+}
+
+.linha-6 {
+    background-color: var(--cor-principal-mais-clara);
+    height: 100px;
+}
+
+.linha-7 {
+    height: 100px;
+    background-color: var(--cor-principal);
+}
+
+.linha-8 {
+    background-color:#ff14912d;
+}
+
+.linha-9 {
+    height: 100px;
+    background-color: var(--cor-principal);
+}
+
+.button {
+    padding: 3% 5%;
+
+    border: none;
+    margin-right: -4vw;
+
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+
+    cursor: pointer;
+}
+/*Fim de estilizacao da pagina 1*/
+
+/*Inicio de estilizacao da pagina 2*/
+.container-black-code {
+    background-image: url("../../../../public/img/home/fundo-filtro(pagina-2-cortada).png");
+    background-size:  cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.linha-10 {
+    background-color: #000000c7;
+
+    /*height: 900px;*/
+    margin-top: max(30px);
+    margin-bottom: max(30px);
+    margin-right: 5%;
+    /*padding: 50px 6vw 0px 6vw;*/
+    padding: 20px 50px;
+    
+    font-weight: 600;
+}
+/*Fim de estilizacao da pagina 2*/
+
+/*Inicio de estilizacao da pagina 3*/
+.margem-top-container {
+    margin-top: 120px;
+}
+
+.cor-botao-quero-contratar {
+    background-color: #292C36;
+}
+
+.container-nossos-profisionais {
+    background-image: url("../../../../public/img/home/profissoes.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contratar {
+    background-color: var(--cor-secundaria);
+}
+
+/*
+.container-titulo-contratar {
+    height: 20vh;
+}
+*/
+
+.margin-parallax {
+    height: 120px;
+}
+
+.titulo-card {
+    margin-top: 110px;
+}
+
+.mask {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
+.img-poligono {
+    width: 250px;
+    min-width: 200px;
+    height: max(310px, 5vw);
+
+    clip-path: url(#svgMask);
+
+    position: absolute;
+    top: -130px;
+}
+/*Fim de estilizacao da pagina 3*/
+
+/*Inicio de estilizacao da pagina 4*/
+.button-veja-mais {
+    background-color: transparent;
+    color: var(--cor-terciaria);
+
+    padding: 10px 40px;
+
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 31px;
+
+    cursor: pointer;
+}
+
+.button-veja-mais:hover{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+
+    transition: .7s ease;
+}
+
+.titulo-pq-investir {
+    margin: 60px auto 40px auto;
+}
+
+.texto-pq-investir {
+    margin: 0 auto 40px auto;
+}
+
+.texto-ambientes-de-trabalho {
+    width: 90%;
+    margin-left: 10px;
+}
+.container-button {
+    background-color: var(--cor-principal);
+
+    display: flex;
+    justify-content: center;
+}
+
+.button-saiba-mais {
+    background-color: transparent;
+    color: var(--cor-terciaria);
+
+    margin: 100px 0 70px 0;
+    padding: 10px 40px;
+
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.button-saiba-mais:hover{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+
+    transition: .7s ease;
+}
+
+.contraste-img {
+    filter: contrast(75%);
+}
+
+@media(min-width: 1750px) {
+    .img-tamanho {
+        height: 15vh;
+    }
+}
+/*Fim de estilizacao da pagina 4*/
+
+/*Inicio de estilizacao da pagina 5*/
+.largura-img-conteudo {
+    width:100%;
+}
+
+.texto-conteudo {
+    margin: 50px auto 100px auto;
+}
+
+.button-materias {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+
+    margin: 100px 0 50px 0;
+    padding: 10px 30px;
+
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 31px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
+}
+
+.button-podcasts {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+
+    margin: 100px 0 50px 0;
+    padding: 10px 30px;
+
+    border: none;
+    border-radius: 50px;
+
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+
+    cursor: pointer;
+}
+/*Fim de estilizacao da pagina 5*/
+
+/*Inicio de estilizacao da pagina 6*/
+.titulo-cadastro {
+    margin: 100px auto 60px auto;
+}
+
+.texto-cadastro {
+    margin-bottom: 100px;
+}
+/*Fim de estilizacao da pagina 6*/
+
+/*Inicio de estilizacao da pagina 7*/
+
+/*Fim de estilizacao da pagina 7*/
+
+/*Inicio de estilizacao da pagina 8*/
+.container-equipe {
+    background-color: #FFD79C;
+}
+
+.img-equipe {
+    max-width: 200px; 
+    max-height: 13em;
+
+    margin: 0 auto;
+
+    border: none; 
+    border-radius: 50%;
+}
+
+.conteudo-equipe {
+    border: none;
+    background-color: #FFD79C;
+}
+
+.titulo-equipe{
+    margin: 70px 0 35px 0;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+/*Fim de estilizacao da pagina 8*/

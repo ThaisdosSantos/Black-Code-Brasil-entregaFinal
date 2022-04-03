@@ -1,0 +1,12 @@
+.altura {
+    background-image: url('../../../public/img/cadastrar/fundo-cadastrar-novo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+}
+
+.cor-form-cadastro {
+    background-color: #FF1493;
+}

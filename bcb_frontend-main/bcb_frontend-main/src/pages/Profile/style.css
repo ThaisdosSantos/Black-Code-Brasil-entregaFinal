@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#talento-info .info-header{
+    background-color: #293236;
+}
+
+.titulo-info {
+    font-size: max(20px, 2.5vw);
+    font-weight: 400;
+    font-family: 'Source Code Pro', 'monospace';  
+}
+.destaque-info {
+    font-size: max(14px, 1.5vw);
+    font-weight: 600;
+    font-family: 'Source Code Pro', 'monospace';  
+}
+.texto-info{
+    font-size: max(14px, 1.5vw);
+    font-family: 'Source Code Pro', 'monospace';  
+}
+.dados img {
+   max-width: 250px;  
+    border: 2px solid white; 
+    border-radius: 50% 
+    
+}
+
+.experiencia {
+    background-color:  #FFD79C;
+}
+.borda{
+    border-bottom: 2px dashed #292C36;
+    
+
+}
+.text-terciario{
+    font-size: max(11px, 1.5vw);
+    font-family: 'Source Code Pro', 'monospace';
+}
+.curso{
+    background-color: rgba(174, 241, 255, 1);
+}
+
+.update{
+    border-radius: 8px;
+    padding: 6px;
+    cursor: pointer;
+}

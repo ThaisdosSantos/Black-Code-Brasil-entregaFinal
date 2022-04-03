@@ -1,0 +1,89 @@
+#contratar .card-contratar:nth-child(even) div:nth-child(1){
+    order: 2; 
+ }
+ 
+ #contratar  .img-contratar {
+     width: 18rem;
+     height: 20rem;
+ }
+ 
+ #contratar .footer-contratar {
+     background-color: #FF1493;
+ }
+ 
+ @media(max-width: 800px){
+     #contratar .card-contratar:nth-child(even) div:nth-child(1) {
+         order: unset;
+     }
+ }
+ 
+ 
+ /* XXXXXXXXXXXXXXXXXXXXXXXXXX AREAS | TALENTOS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+ 
+ #areas .card-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+ 
+ #areas .areas-card {
+     width: 22rem;
+     height: 23rem;
+     background-color: #FFFFFF;
+     border-radius: 3rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: max(20px, 3vw);
+     font-family: 'Source Code Pro', 'monospace';
+     font-weight: bold;
+     cursor: pointer;
+     margin: 16px;
+ }
+ 
+     #areas .areas-card input {
+         display: none;
+     }
+ 
+ /* XXXXXXXXXXXXXXXXXXXXXXXXXX TALENTOS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+ 
+ #talentos {
+     font-family: var(--font);
+ }
+ 
+     #talentos h1 {
+         color: #AEF1FF;
+         font-size: clamp(1.75rem, 3vw, 3rem);
+     }
+ 
+     #talentos .talentos-place {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         margin-top: 2rem;
+         /*border: 2px solid red;*/
+     }
+ 
+     #talentos a {
+         text-decoration: none;
+         flex: 0 1 auto;
+         /*border: 2px solid blue;*/
+     }
+ 
+     #talentos .talentos-place a .card {
+         text-align: center;
+         margin: 1.5rem;
+         color: #000;
+         max-width: 18rem;
+         min-height: 546px;
+     }
+ 
+     #talentos figure {
+         text-align: center;
+     }
+ 
+     #talentos .talentos-place a .card img {
+         border-radius: 100%;
+         width: 80%;
+     }
